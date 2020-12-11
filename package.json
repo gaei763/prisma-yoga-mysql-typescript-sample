@@ -1,0 +1,21 @@
+{
+	"name": "prisma-yoga-mysql-typescript-sample",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"repository": "git@github.com:gaei763/prisma-yoga-mysql-typescript-sample.git",
+	"author": "prjunkey <prjunkey@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"graphql-yoga": "^1.18.3",
+		"prisma-binding": "^2.3.16"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.2"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --ext ts,yaml,graphql --exec 'ts-node' src/index.ts"
+	}
+}
